@@ -27,4 +27,17 @@ $(document).ready(function(){
     $('.navbar .menu').toggleClass("active")
     $('.menu-btn i').toggleClass("active")
     })
+
+
+ $(".owl-carousel").owlCarousel({
+items:1,
+loop:true,
+nav:true,
+dots:true,
+autoplay:true,
+smartSpeed:1500,
+autoplayHoverPause:true
+
+ });
+
     }); 
